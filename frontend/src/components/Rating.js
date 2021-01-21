@@ -14,7 +14,8 @@ const Rating = ({ value, text, color }) => {
                     : 'far fa-star'
                 }
                 ></i>
-            </span>            <span>
+            </span>            
+            <span>
                 <i style={{color}}
                   className={
                     value >= 2 
@@ -24,7 +25,8 @@ const Rating = ({ value, text, color }) => {
                     : 'far fa-star'
                 }
                 ></i>
-            </span>            <span>
+            </span>            
+            <span>
                 <i style={{color}}
                   className={
                     value >= 3 
@@ -34,7 +36,8 @@ const Rating = ({ value, text, color }) => {
                     : 'far fa-star'
                 }
                 ></i>
-            </span>            <span>
+            </span>            
+            <span>
                 <i style={{color}}
                   className={
                     value >= 4 
@@ -44,7 +47,8 @@ const Rating = ({ value, text, color }) => {
                     : 'far fa-star'
                 }
                 ></i>
-            </span>            <span>
+            </span>            
+            <span>
                 <i style={{color}}
                   className={
                     value >= 5 
