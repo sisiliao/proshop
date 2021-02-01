@@ -1,6 +1,6 @@
-# Dockerize react and nodejs app, orchestrated by docker-compose
+# Dockerize React and NodeJs app, and orchestrate the services using docker-compose
 
-Summary:
+### Summary:
 
 - Dockerize react project developed using create-react-app. Host it with nginx, which requires to set proxy_pass in order to route the api calls to the backend server. For example, a call to http://frontend/api/products should be route to http://backend/api/products.
 - Dockerize nodejs project, no special requirement
@@ -23,8 +23,9 @@ My file structures:
 └── package.json
 ```
 
-Dockerfile for the frontend app
-./frontend/Dockerfile
+#### Dockerfile for the frontend app
+
+`./frontend/Dockerfile`
 
 ```
 #build environment
@@ -46,8 +47,9 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-Dockerfile for the backend app
-./Dockerfile
+#### Dockerfile for the backend app:
+
+`./Dockerfile`
 
 ```
 FROM node:alpine
@@ -59,7 +61,9 @@ EXPOSE 5000
 CMD [ "npm", "run", "start" ]
 ```
 
-frontend/nginx/nginx.conf
+#### Nginx configuration:
+
+`frontend/nginx/nginx.conf`
 
 ```
 server {
@@ -90,7 +94,9 @@ server {
 1. this nginx.conf works for docker container, but needs adjustment if it's used without container environment. The resolver is required to resolve 'backend' link, and 127.0.0.11 is the ip of docker container itself
 2. the `location ~ ^/api/(.*)$ {` section is the setting to route the api call to the backend server. For example, a call to http://frontend/api/products should be route to http://backend/api/products.
 
-./docker-compose.yaml
+#### docker-compose configuration
+
+`./docker-compose.yaml`
 
 ```
 version: '3'
@@ -122,7 +128,7 @@ services:
    `curl backend:5000` or `curl be:5000`
    It means the frontend container will be able to access the backend container using that link, which uses docker network (created for you automatically) underneath.
 
-## docker-compose cli to build and run the services.
+#### docker-compose cli to build and run the services.
 
 docker-compose build
 docker-compose up -d
