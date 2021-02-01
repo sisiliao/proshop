@@ -16,6 +16,6 @@ services:
       dockerfile: ./Dockerfile
     image: "sisi-fe"
     ports:
-      - "3000:3000"
+      - "3000:80"
     links:
       - "backend:be"
