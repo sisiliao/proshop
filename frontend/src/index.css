@@ -19,3 +19,13 @@ h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
+
+img:hover {
+  /* box-shadow: 0 0 2px 1px rgba(97, 96, 102, 0.5); */
+  transform: translateX(-5px) translateY(-5px);
+}
+
+img {
+  border-radius: 20px;
+  transition: ease-in-out 0.2s;
+}
