@@ -26,7 +26,6 @@ yarn-error.log*
 
 #eslint
 .eslintcache
-/frontend/.eslintcache
 
 readme.md
 
