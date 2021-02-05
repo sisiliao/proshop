@@ -26,6 +26,7 @@ yarn-error.log*
 
 #eslint
 .eslintcache
+
 readme.md
 
 # static dir
