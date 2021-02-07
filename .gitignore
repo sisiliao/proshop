@@ -26,8 +26,10 @@ yarn-error.log*
 
 #eslint
 .eslintcache
-
 readme.md
+
+#vscode
+.vscode
 
 # static dir
 /uploads
