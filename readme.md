@@ -20,7 +20,7 @@ https://secret-garden-florist.herokuapp.com/
    `PORT`, at which port the API is runnning.\
    `MONGO_URI`, connect token of MongoDB.\
    `JWT_SECRET`, private key used to sign the JWT token. \
-   `PAYPAL_CLIENT_ID`, The business-id that was created in paypal development sandbox tool. \
+   `PAYPAL_CLIENT_ID`, The business-id that was created in paypal development sandbox tool.
 
 # Build and Deploy with Docker and Docker-Compose
 
