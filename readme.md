@@ -4,23 +4,23 @@ https://secret-garden-florist.herokuapp.com/
 
 # Deploy with Heroku
 
-1. Install Heroku CTL and create an app
-   `heroku login`
+1. Install Heroku CTL and create an app\
+   `heroku login`\
    `heroku create <app name>`
 
-2. create a Procfile telling Heroku server how to run the code, within that file write:
+2. create a Procfile telling Heroku server how to run the code, within that file write:\
    `web: node backend/server.js`
-3. Add heroku-postbuild script to the script section in the package.json
+3. Add heroku-postbuild script to the script section in the package.json\
    `"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"`
-4. Add heroku owned git remote repository, and push the code to the remote repo.
-   `heroku git:remote -a <app name>`
+4. Add heroku owned git remote repository, and push the code to the remote repo.\
+   `heroku git:remote -a <app name>`\
    `git push heroku <local branch>:master`
-5. On Heroku dashboard, configure env vars. Basically add whatever is in the `.env` file. Includes
-   `NODE_ENV`, tells nodejs your running environment.
-   `PORT`, at which port the API is runnning.
-   `MONGO_URI`, connect token of MongoDB
-   `JWT_SECRET`, private key used to sign the JWT token
-   `PAYPAL_CLIENT_ID`, The business-id that was created in paypal development sandbox tool.
+5. On Heroku dashboard, configure env vars. Basically add whatever is in the `.env` file. Includes:\
+   `NODE_ENV`, tells nodejs your running environment.\
+   `PORT`, at which port the API is runnning.\
+   `MONGO_URI`, connect token of MongoDB.\
+   `JWT_SECRET`, private key used to sign the JWT token. \
+   `PAYPAL_CLIENT_ID`, The business-id that was created in paypal development sandbox tool. \
 
 # Build and Deploy with Docker and Docker-Compose
 
