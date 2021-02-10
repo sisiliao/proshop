@@ -9,6 +9,31 @@ https://secret-garden-florist.herokuapp.com/
 - A modern single-page web application that handles online florist business. It allows customer to place orders, process payments, rate the products, and helps the admin user to manage the product stock, customers, order deliveries etc.
 - It is a production ready microservice application built using docker and docker-compose. The tech-stack includes React, Redux, NodeJS, Express, MongoDB, Docker.
 
+<div>
+   <h3>Home Page and Product Page </h3>
+   <img src="/docs/Home.png" width="420" height="280">
+   <img src="/docs/ProductPage.png" width="420" height="280">
+</div>
+<div>
+   <h3>Shopping Cart Page and Order Page </h3>
+   <img src="/docs/ShoppingCartPage.png"  width="420" height="280">
+   <img src="/docs/OrderPage.png"  width="420" height="280">
+</div>
+<div>
+   <h3> Order Paid Page and PayPal Integration </h3>
+   <img src="/docs/OrderPaid.png"  width="420" height="280">
+   <img src="/docs/PayPal-Integration.png"  width="420" height="280">
+</div>
+<div>
+   <h3> Admin Users can manage Users and Products </h3>
+   <img src="/docs/Admin-ManageUsers.png"  width="420" height="280">
+   <img src="/docs/Admin-ManageProducts.png"  width="420" height="280">
+</div>
+<div>
+   <h3> Admin Users can manage Orders and Shipments </h3>
+   <img src="/docs/Admin-OrderAndShipmentManagement.png"  width="420" height="280">
+</div>
+
 ## Deploy with Heroku
 
 1. Install Heroku CTL and create an app\
