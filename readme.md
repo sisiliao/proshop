@@ -1,8 +1,15 @@
-# Live Demo hosted on Heroku
+# Secret-Garden-Florist
+
+## Live Demo hosted on Heroku
 
 https://secret-garden-florist.herokuapp.com/
 
-# Deploy with Heroku
+## Summary of the app
+
+- A modern single-page web application that handles online florist business. It allows customer to place orders, process payments, rate the products, and helps the admin user to manage the product stock, customers, order deliveries etc.
+- It is a production ready microservice application built using docker and docker-compose. The tech-stack includes React, Redux, NodeJS, Express, MongoDB, Docker.
+
+## Deploy with Heroku
 
 1. Install Heroku CTL and create an app\
    `heroku login`\
@@ -22,7 +29,7 @@ https://secret-garden-florist.herokuapp.com/
    `JWT_SECRET`, private key used to sign the JWT token. \
    `PAYPAL_CLIENT_ID`, The business-id that was created in paypal development sandbox tool.
 
-# Build and Deploy with Docker and Docker-Compose
+## Build and Deploy with Docker and Docker-Compose
 
 ### Summary:
 
