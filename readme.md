@@ -11,27 +11,27 @@ https://secret-garden-florist.herokuapp.com/
 
 <div>
    <h3>Home Page and Product Page </h3>
-   <img src="/docs/Home.png" width="420" height="280">
-   <img src="/docs/ProductPage.png" width="420" height="280">
+   <img src="/docs/Home.png" width="360" height="240">
+   <img src="/docs/ProductPage.png" width="360" height="240">
 </div>
 <div>
    <h3>Shopping Cart Page and Order Page </h3>
-   <img src="/docs/ShoppingCartPage.png"  width="420" height="280">
-   <img src="/docs/OrderPage.png"  width="420" height="280">
+   <img src="/docs/ShoppingCartPage.png"  width="360" height="240">
+   <img src="/docs/OrderPage.png"  width="360" height="240">
 </div>
 <div>
    <h3> Order Paid Page and PayPal Integration </h3>
-   <img src="/docs/OrderPaid.png"  width="420" height="280">
-   <img src="/docs/PayPal-Integration.png"  width="420" height="280">
+   <img src="/docs/OrderPaid.png"  width="360" height="240">
+   <img src="/docs/PayPal-Integration.png"  width="360" height="240">
 </div>
 <div>
    <h3> Admin Users can manage Users and Products </h3>
-   <img src="/docs/Admin-ManageUsers.png"  width="420" height="280">
-   <img src="/docs/Admin-ManageProducts.png"  width="420" height="280">
+   <img src="/docs/Admin-ManageUsers.png"  width="360" height="240">
+   <img src="/docs/Admin-ManageProducts.png"  width="360" height="240">
 </div>
 <div>
    <h3> Admin Users can manage Orders and Shipments </h3>
-   <img src="/docs/Admin-OrderAndShipmentManagement.png"  width="420" height="280">
+   <img src="/docs/Admin-OrderAndShipmentManagement.png"  width="360" height="240">
 </div>
 
 ## Deploy with Heroku
