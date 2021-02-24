@@ -1,5 +1,5 @@
 {
-  "name": "proshop",
+  "name": "secret-garden",
   "version": "1.0.0",
   "description": "MERN shopping cart",
   "main": "server.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sisiliao/proshop.git"
+    "url": "git+https://github.com/sisiliao/secret-garden-mern-ecommerce.git"
   },
   "author": "sisi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sisiliao/proshop/issues"
+    "url": "https://github.com/sisiliao/secret-garden-mern-ecommerce/issues"
   },
-  "homepage": "https://github.com/sisiliao/proshop#readme",
+  "homepage": "https://github.com/sisiliao/secret-garden-mern-ecommerce#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
